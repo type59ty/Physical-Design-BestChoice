@@ -1,0 +1,65 @@
+Best-choice check
+HW date 2019/9/26 ~ 10/14 Check By m107yhliu
+Input file : ./benchmark/adaptec3/adaptec3.nodes
+Input file : ./benchmark/adaptec3/adaptec3.nets
+Input file : ./BC-HW/BC_P76071218/adaptec3.clusters
+Input file : ./BC-HW/BC_P76071218/adaptec3.cnets
+
+----------Node start----------
+NumNodes : 451650
+NumTerminals : 723
+NumFreeNodes : 450927
+Atotal : 69799500
+---------- Node end ----------
+
+---------- Net start----------
+NumNets : 466758
+----------  Net end ----------
+
+---------Cluster start--------
+level 0 size:225463
+level 1 size:207778
+level 2 size:103928
+level 3 size:52311
+level 4 size:27024
+level 5 size:14355
+level 6 size:7876
+level 7 size:5999
+
+CHECK if all free nodes are clustered : 
+all free nodes are clustered PASS
+
+CHECK number of blocks in the resulting clustered circuit < 6000 : 
+CHECK number of blocks < 6000 PASS
+
+CHECK level areas from '0' to '7' : 
+    level 0 area correct!
+    level 1 area correct!
+    level 2 area correct!
+    level 3 area correct!
+    level 4 area correct!
+    level 5 area correct!
+    level 6 area correct!
+    level 7 area correct!
+CHECK level areas PASS
+
+CHECK Aci <= 3*(Atotal/Nc) : 
+    Atotal : 69799500
+    N0 : 450927
+    N1 : 225463
+    N2 : 207778
+    N3 : 103928
+    N4 : 52311
+    N5 : 27024
+    N6 : 14355
+    N7 : 7876
+CHECK Aci <= 3*(Atotal/Nc) PASS
+--------- Cluster end --------
+
+----------Cnet start----------
+CHECK cnets file : 
+CHECK cnets file PASS
+Final NumNets : 95920
+---------- Cnet end ----------
+
+Best-choice check done
